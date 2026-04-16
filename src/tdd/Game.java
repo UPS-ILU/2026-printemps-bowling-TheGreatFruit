@@ -1,13 +1,15 @@
 package tdd;
 
 public class Game {
-
+	
+	private int score = 0;
+	
 	public void roll(int nbQuilles) {
-		// Bonjour...
+		this.score += nbQuilles;
 	}
 
 	public int score() {
-		return 0;
+		return score;
 	}
 
 }
